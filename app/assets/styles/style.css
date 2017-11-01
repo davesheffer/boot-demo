@@ -1,15 +1,4 @@
-$primaryColor: #2f5572;
+@import "normalize.css";
+@import "base/_global";
+@import "modules/_header";
 
-body{
-    color:$primaryColor;
-    padding:5px;
-    background: white;
-    columns:300px 2;
-}
-.box{
-    
-    a{
-        display: block;
-        padding: 10px;
-    }
-}
