@@ -1,4 +1,15 @@
+$primaryColor: #2f5572;
+
 body{
-    
+    color:$primaryColor;
     padding:5px;
+    background: white;
+    columns:300px 2;
+}
+.box{
+    
+    a{
+        display: block;
+        padding: 10px;
+    }
 }
