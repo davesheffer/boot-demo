@@ -5,7 +5,9 @@ var gulp = require('gulp'),
     nested = require('postcss-nested'),
     cssImport = require('postcss-import'),
     autoprefixer = require('autoprefixer'),
+    mixins = require('postcss-mixins'),
     browserSync = require('browser-sync').create();
+    
 
 gulp.task('default', function () {
     console.log("gulpidoo");
@@ -13,7 +15,7 @@ gulp.task('default', function () {
 
 gulp.task('styles', function () {
     return gulp.src('./app/assets/styles/style.css')
-        .pipe(postcss([cssImport, cssvars, nested, autoprefixer]))
+        .pipe(postcss([cssImport, mixins, cssvars, nested, autoprefixer]))
         .pipe(gulp.dest('./app/temp/styles'));
 });
 gulp.task('watch', function () {

@@ -12,7 +12,23 @@
     "gulp-postcss": "^7.0.0",
     "gulp-watch": "^4.3.11",
     "postcss-import": "^11.0.0",
+    "postcss-mixins": "^6.2.0",
     "postcss-nested": "^2.1.2",
     "postcss-simple-vars": "^4.1.0"
-  }
+  },
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davesheffer/boot-demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davesheffer/boot-demo/issues"
+  },
+  "homepage": "https://github.com/davesheffer/boot-demo#readme",
+  "description": "my lovley repo"
 }
