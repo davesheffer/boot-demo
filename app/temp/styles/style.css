@@ -599,14 +599,12 @@ a{
 
 .page-section{
     padding: 1rem 0;
-    
 }
 
 @media (min-width: 600px) {
 
 .page-section{
          padding: 4.5rem 0
-    
 }
 
     }
@@ -614,6 +612,12 @@ a{
 .page-section--blue{
         background-color: #2f5572;
         color:#fff;
+    }
+
+.page-section--testimonials {
+        background: url('/assets/images/testimonials-bg.jpg') top center no-repeat;
+        background-size: cover; 
+        
     }
 
 .headline {
